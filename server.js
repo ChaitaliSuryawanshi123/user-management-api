@@ -5,7 +5,9 @@ require('dotenv').config();
 const cors = require('cors');
 const helmet = require('helmet');
 const userRoutes = require('./routes/userRoutes');
-
+//main comment
+//dummy main comment
+//dummy main comment
 
 app.use(express.json());  //built-in middleware to parse JSON bodies into req.body. Without this, req.body is undefined for JSON payloads
 app.use(cors());  //enables CORS : allows your frontend (on other origin) to communicate with the API. cors() accepts options for allowed origins, headers, credentials.
