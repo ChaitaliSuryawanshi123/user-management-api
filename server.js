@@ -8,7 +8,11 @@ const userRoutes = require('./routes/userRoutes');
 //main comment
 //dummy main comment
 //dummy main comment
+//Some comment to create conflict
+//some comment to create conflict
+//some comment to add something
 
+//some comment to create merge conflict
 app.use(express.json());  //built-in middleware to parse JSON bodies into req.body. Without this, req.body is undefined for JSON payloads
 app.use(cors());  //enables CORS : allows your frontend (on other origin) to communicate with the API. cors() accepts options for allowed origins, headers, credentials.
 app.use(helmet());  //sets security headers like X-Frame-Options, X-Content-Type-Options, Content-Security-Policy (helps guard against common attacks).
